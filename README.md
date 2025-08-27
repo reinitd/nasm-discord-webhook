@@ -7,6 +7,7 @@ I do not have the skill nor time to work out the TLS handshake along with other 
 It takes user input on what you want to send.
 
 #### Build
+**Make sure to set the webhook URL on line 27‼**
 ```sh
 nasm -f elf64 discord_webhook.asm -o discord_webhook.o
 ld discord_webhook.o -o discord_webhook
