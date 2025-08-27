@@ -1,4 +1,5 @@
 # x86_64 NASM Discord Webhook
+Using assembly to send a message to a Discord webhook! \
 Yes, I cheated. It uses curl to actually send the requests. \
 I do not have the skill nor time to work out the TLS handshake along with other HTTPS shenanigans.
 
